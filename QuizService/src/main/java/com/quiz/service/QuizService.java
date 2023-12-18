@@ -9,4 +9,5 @@ public interface QuizService {
     Quiz add(Quiz quiz);
     List<Quiz> getAll();
     Quiz getQuiz(Long id);
+
 }

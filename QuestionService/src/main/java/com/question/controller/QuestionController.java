@@ -20,7 +20,6 @@ public class QuestionController {
 
     @GetMapping
     public List<Question> getAll() {
-        System.out.println("2023-12-14T16:32:42.812+05:30  INFO 21482 --- [QUESTION-SERVICE] [nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms");
         return questionService.getAll();
     }
 
